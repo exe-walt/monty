@@ -47,6 +47,7 @@ void (*get_func(char **parsed))(stack_t **, unsigned int)
  * @stack: double pointer to the stack to push to
  * @line_number: number of the line in the file
  */
+
 void push_handler(stack_t **stack, unsigned int line_number)
 {
 	stack_t *new;
